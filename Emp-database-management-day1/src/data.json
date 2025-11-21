@@ -1,0 +1,50 @@
+[
+    {
+        "id":1001,
+        "imageUrl":"https://example.com/image1.jpg",
+        "firstName": "Anuj",
+        "lastName": "Parihar",
+        "email":"anujparihar.tech@gmail.com",
+        "contactNumber": 7976586346,
+        "age":24,
+        "dob": "23/3/2021",
+        "salary": 25000,
+        "address": "Udaipur, Rajasthan"
+    },
+    {
+        "id":1002,
+        "imageUrl":"https://example.com/image1.jpg",
+        "firstName": "Ronak",
+        "lastName": "Parihar",
+        "email":"anujparihar.tech@gmail.com",
+        "contactNumber": 7976586346,
+        "age":24,
+        "dob": "23/3/2021",
+        "salary": 25000,
+        "address": "Udaipur, Rajasthan"
+    },
+    {
+        "id":1003,
+        "imageUrl":"https://example.com/image1.jpg",
+        "firstName": "Charu",
+        "lastName": "Devi",
+        "email":"anujparihar.tech@gmail.com",
+        "contactNumber": 7976586346,
+        "age":24,
+        "dob": "23/3/2021",
+        "salary": 25000,
+        "address": "Udaipur, Rajasthan"
+    },
+    {
+        "id":1004,
+        "imageUrl":"https://example.com/image1.jpg",
+        "firstName": "prachi",
+        "lastName": "Parihar",
+        "email":"anujparihar.tech@gmail.com",
+        "contactNumber": 7976586346,
+        "age":24,
+        "dob": "23/3/2021",
+        "salary": 25000,
+        "address": "Udaipur, Rajasthan"
+    }
+]
