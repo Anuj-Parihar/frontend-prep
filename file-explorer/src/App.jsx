@@ -2,13 +2,20 @@ import React, { useState } from 'react'
 import './index.css'
 import explorer from "./data/data.js";
 import Folder from './components/Folder.jsx';
+import useTraverseTree from './hooks/use-traverse-tree.jsx';
 const App = () => {
   const [explorerData, setExplorerData] = useState(explorer);
-  // console.log(explorerData);
   
+  const  {insertNode}= useTraverseTree(); //custom hook
+  const handleInsertNode = (folderId, item, isFolder) =>{
+    const finalTree = insertNode(explorerData,folderId, item, isFolder );
+    setExplorerData(finalTree)
+  }
+
+
   return (
     <div className='App'>
-      <Folder  explorer = {explorerData}/>
+      <Folder handleInsertNode={handleInsertNode}  explorer = {explorerData}/>
     </div>
   )
 }
